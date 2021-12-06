@@ -5,7 +5,6 @@ from astropy.table import Table
 import os
 import glob
 
-
 def create_folders(path_list):
     for item_path in path_list:
         if not os.path.exists(item_path):
